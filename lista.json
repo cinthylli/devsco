@@ -1,0 +1,28 @@
+{
+    "listas" : [
+        {
+         "tutulo":"Slider",
+         "nombre": "Geraldine"
+        },
+        {
+         "tutulo":"Galeria Imagenes",
+         "nombre": "Shelcy"
+        },
+        {
+         "tutulo":"Base de Dartos",
+         "nombre": "Jose Luis"
+        },
+        {
+         "tutulo":"Formulacion",
+         "nombre": "Juan Herrera"
+        },
+        {
+        "tutulo":"Maqueta",
+        "nombre": "Sergio"
+        },
+        {
+        "tutulo":"Seguridad informatica",
+        "nombre": "Richard"
+        }
+    ]
+}
