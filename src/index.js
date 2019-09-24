@@ -1,16 +1,12 @@
-/*
-TODO ESTÈ ARCHIVO ARRANCA EL SERVIDOR
-*Segundo archivo en ser manipulado, 
-*inicializa el servidor
-*/
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-const app = require('./app')
-require('./database');
+ReactDOM.render(<App />, document.getElementById('root'));
 
-async function main(){
-//*función encargada en iniciar el programa
-  await app.listen(app.get('port'));//* método asíncrono
-  console.log(`Server on port, ${app.get('port')}`);
-}
-
-main();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
