@@ -1,0 +1,66 @@
+.perro{
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 100% 0px 0px;
+    border-bottom: 100px solid #08B;
+    background-color: black;
+}
+
+#caja{
+    
+    width: 300px;
+    height: 300px;
+        border-left: 200px solid black;
+        border-bottom: 50px solid transparent;
+        width: 0;
+        height: 100px;
+        background-color: blue;
+    
+}
+
+
+#cosa{
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 70px;
+    padding: 10px;
+      width: 200px;
+      height: 200px;
+    background-color: #f1f1f1;
+    position: relative;
+    text-align: right;
+    /*La magia del borde es con drop-shadow
+    *ya que la "sombra" cubre todo el elemento
+    * incluyendo al seudoelemento*/
+    filter: 
+      drop-shadow(0px 2px 0px blue) 
+      drop-shadow(2px 0px 0px blue) 
+      drop-shadow(-2px 0px 0px blue) 
+      drop-shadow(0px -2px 0px blue) ;
+  }
+  #cosa::after{
+    content: '';
+    display: block;
+    position: absolute;
+    /*con inherit, el bloque tendrá siempre el mismo fondo que el padre*/
+    background: inherit; 
+    width: 100%;
+    left: 0;
+    top: 100%;
+  }
+   
+  /*Yo separe esta parte, para no tener que volver
+  * a usarlo en el ejemplo 2, pero fácilmente 
+  *pueden ir en un solo estilo.*/
+   
+  /*Este elemento queda encima del texto*/
+  #cosa::after{
+    height:55px;
+    /*con esto lo obligamos a estar una capa abajo*/
+    z-index: 1;
+    transform: 
+      skewY(15deg)
+      translateY(-50%);
+  }
+   
+  #box1 span{ position: relative; z-index: 2;  }

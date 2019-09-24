@@ -1,0 +1,164 @@
+@font-face{src: url(fonts/promesh.regular.ttf);
+    font-family: "promesh"
+}
+
+@font-face{src: url(fonts/neuropol.ttf);
+    font-family: "neuropol"
+    }
+
+header{
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+}
+
+header ul{
+    margin: auto;
+    display: inline-block;
+    margin-top: 15px;
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+header img{
+    height: 50px;
+}
+
+
+
+
+
+#contenedor_1{
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+}
+
+#contenedor_1 h1{
+    font-size: 60px;
+    color: #0088FF;
+    font-family: promesh;
+}
+
+#contenedor_1 p{
+    font-size: 30px;
+    font-family: neuropol;
+    color: #808085;
+}
+
+
+
+
+
+
+#contenedor_2{
+    width: 100%;
+    height: 700px;
+    background-color: #1D3366;
+    text-align: center;
+    position: relative;
+}
+
+#contenedor_2 h2{
+    font-size: 50px;
+    font-family: promesh;
+    color: aliceblue;
+    padding-top: 150px;
+}
+
+#contenedor_2 p{
+    font-size: 25px;
+    color: white;
+    font-family: neuropol
+
+    
+}
+
+
+#contenedor_3{
+    border-radius: 50px;
+    box-shadow: 1px 3px 5px  gray;
+    width: 90%;
+    z-index: 2;
+    position: absolute;
+    top: 1600px;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contenedor_3 div{
+    height: 400px;
+    box-shadow: 1px 3px 5px  gray;
+}
+
+#contenedor_3 h3{
+    color: #0088FF;
+    font-family: promesh;
+    font-size: 20px;
+}
+
+#contenedor_3 h4{
+    color: #0088FF;
+    font-size: 15px;
+    font-family: promesh;
+}
+
+#contenedor_3 p{
+    font-family: neuropol;
+    color: #808085;
+}
+
+
+
+
+#contenedor_4{
+    margin-top: 300px;
+    text-align: center;
+    color: #0088FF;
+}
+
+#contenedor_4 h2{
+    font-size: 50px;
+    font-family: promesh;
+}
+
+
+
+
+#contenedor_5{
+    text-align: center;
+}
+
+#contenedor_5 h2{
+    font-size: 50px;
+    font-family: promesh;
+    color: #0088FF;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #1D3366;
+}
+
+footer p{
+    color: white;
+}
+
+#redes{
+    display: inline-block;
+}
