@@ -15,12 +15,14 @@ import Pagos_3 from './components/pagos/p-3/pagos_3'
 import Pagos_4 from './components/pagos/p-4/pagos_4'
 import Pagos_5 from './components/pagos/p-5/pagos_5'
 import Pagos_6 from './components/pagos/p-6/pagos_6'
+import Millas_1 from './components/Millas/millas-1/Millas_1'
+import Millas_2 from './components/Millas/millas-2/Millas_2'
 
 class App extends Component{
   render(){
     return(
       <div>
-      <Nav/>   
+              <Nav/>   
       <C_buscar/>
       <Video/>
       <Destino/>
@@ -28,6 +30,7 @@ class App extends Component{
       <Hoteles/>
       <Footer/>
       </div>
+
     );
   }
 }
@@ -52,4 +55,9 @@ PAGOS
         <Pagos_5/>
         <Pagos_6/>
         <Footer/>
+
+
+MILLAS
+        <Millas_1/>
+        <Millas_2/>
       */

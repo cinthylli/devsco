@@ -1,0 +1,80 @@
+#millas_1{
+    width: 1143px;
+    height: 290px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+#millas_1-c{
+    margin-left: 37px;
+    margin-top: 60px;
+}
+#millas_1-c h1{
+    font-size: 23px;
+    color: #002665;
+}
+
+#b-buscar-2{
+    width: 100px;
+    height: 48px;
+    background-color: aqua;
+    margin-left: 994px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#b-buscar-2 h2{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+#b-buscar-2:hover{
+    border: solid 2px #EC1650;
+}
+
+#b-buscar-2:hover h2{
+    margin-top: 0px;
+}
+
+
+
+
+
+
+#millas_2{
+    width: 1143px;
+    height: 700px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#millas_2-s-c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.millas_2-s-c-1{
+    width: 367px;
+    height: 383px; 
+}
+
+.millas_2-s-c-2{
+    width: 367px;
+    height: 383px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.millas_2-img{
+    width: 367px;
+    height: 262px;
+    z-index: 1;
+}
