@@ -1,0 +1,296 @@
+.pagos-titulos{
+    width: 1143px;
+    height: 74px;
+    background-color: #002665;
+    border-radius:  0px 0px 15px 15px;
+    text-align: center;
+}
+
+.pagos-titulos h1{
+    font-size: 33px;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+#pagos_1{
+    width: 1143px;
+    height: 400px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#pagos_1-c{
+    width: 1020px;
+    margin-left: 61px;
+    margin-right: 62px;
+    margin-top: 57px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.pagos_1-s-c{
+    margin-right: 0px;
+    text-align: center;
+    width: 170px;
+    height: 100px;
+}
+
+.pagos_1-s-c p{
+    color: #B30F3B;
+    font-size: 20px;
+}
+
+.pagos_1-c-img{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+#pagos_2{
+    width: 1143px;
+    height: 400px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#pagos_2-c{
+    margin-left: 37px;
+    margin-right: 37px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.pagos_2-s-c{
+    margin-right: 50px;
+}
+
+.pagos_2-s-c h2{
+    color: #002665;
+    font-size: 23px;
+    
+    margin-top: 40px;
+}
+
+#input-c{
+    display: inline-block;
+}
+.input-1{
+    width: 318px;
+    height: 47px;
+    border-radius: 24px;
+    box-shadow: 3px 3px 6px #00000029;
+}
+#input-2{
+    width: 211px;
+    height: 47px;
+    border-radius: 24px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 6px #00000029;
+}
+
+#input-3{
+    width:85px;
+    height: 47px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 6px #00000029;
+}
+
+#input-c-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#i-c-2{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#pagos_4{
+    width: 1143px;
+    height: 450px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#pagos_4-c{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pagos_4-s-c{
+    height: 120px;
+    width: 352px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 120px 232px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.p_4-sc-1{
+    height: 120px;
+}
+
+.p_4-sc-1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+
+.p_4-sc-2 h3{
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+
+
+
+
+#pagos_3{
+    width: 1143px;
+    height: 853px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#pagos_5{
+    width: 1143px;
+    height: 1131px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#pagos_5-s-c{
+    width: 481px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+#pagos_5-s-c-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#pagos_5-s-c-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#pagos_5-s-c-1 p{
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+#pagos_6{
+    width: 1143px;
+    height: 1107px;;
+    box-shadow: 1px 3px 15px #B30F3B29;
+    margin-left: 79px;
+    margin-right: 78px;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.pagos_6-s-c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 37px;
+}
+.pagos_6-s-c div{
+    margin-left: 37px;
+}
+
+.pagos_6-c h1{
+    margin-left: 37px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+} 
+
+.pagos_6-s-c h2{
+    margin-top: 20px;
+}
+
+
+#boton-confirmar{
+    width: 580px;
+    height: 72px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 520px;
+    border-radius: 10px;
+    margin-right: 42px;
+    background-color: #002665;
+}
+
+#boton-confirmar h1{
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+
+#boton-confirmar:hover{
+    border: 3px solid #B30F3B;
+}
+
+
+

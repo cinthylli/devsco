@@ -1,21 +1,25 @@
 import React, {Component} from 'react'
-import Nav from './components/nav/nav'
-import Video from './components/video/video'
-import C_destino from './components/C_destino/c-destino'
-import Destino from './components/destinos/destinos'
-import Experiencias from './components/experiencias populares/experiencias'
-import Hoteles from './components/hoteles/hoteles'
+import Nav from './components/Home/nav/nav'
+import Video from './components/Home/video/video'
+import C_destino from './components/Home/C_destino/c-destino'
+import Destino from './components/Home/destinos/destinos'
+import Experiencias from './components/Home/experiencias populares/experiencias'
+import Hoteles from './components/Home/hoteles/hoteles'
 import Footer from './components/footer/footer'
-import C_fechas from './components/C_fechas/C_fechas'
-import C_servicio from './components/C_servicio/C_servicio'
-import C_buscar from './components/C_buscar/C_buscar'
+import C_fechas from './components/Home/C_fechas/C_fechas'
+import C_servicio from './components/Home/C_servicio/C_servicio'
+import C_buscar from './components/Home/C_buscar/C_buscar'
+import Pagos_1 from './components/pagos/p-1/pagos_1'
+import Pagos_2 from './components/pagos/p-2/pagos_2'
+import Pagos_3 from './components/pagos/p-3/pagos_3'
+import Pagos_4 from './components/pagos/p-4/pagos_4'
+import Pagos_5 from './components/pagos/p-5/pagos_5'
+import Pagos_6 from './components/pagos/p-6/pagos_6'
 
 class App extends Component{
   render(){
     return(
       <div>
-        
-        
       <Nav/>   
       <C_buscar/>
       <Video/>
@@ -31,14 +35,21 @@ class App extends Component{
 export default App
 /*
 
-
-      <Nav />
-      <C_destino/>
-      <C_fechas/>
-      <Video />
+HOME
+      <Nav/>   
+      <C_buscar/>
+      <Video/>
       <Destino/>
       <Experiencias/>
       <Hoteles/>
       <Footer/>
 
+PAGOS
+        <Pagos_1/>
+        <Pagos_2/>
+        <Pagos_3/>
+        <Pagos_4/>
+        <Pagos_5/>
+        <Pagos_6/>
+        <Footer/>
       */

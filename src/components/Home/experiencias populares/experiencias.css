@@ -1,0 +1,50 @@
+#experiencia-c{
+    margin: 25px 78px 50px 79px;
+}
+
+#experiencia-c h1{
+
+    font-size: 24px;
+    color: #00A8A8;
+}
+
+#experiencia-s-c{
+    height: 377px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.e-s-c-1{
+    height: 377px;
+
+}
+.e-s-c-1 .s-c-i{
+    width: 273px;
+    height: 275px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 31px;
+}
+
+.p_1{
+    color: #383D3C;
+    font-size: 12px;
+}
+
+.p_2{
+    font-size: 16px;
+    margin-top: -10px;
+    color: #383D3C;
+}   
+
+.p_3{
+    font-size: 14px;
+    margin-top: -10px;
+    color:#707070;
+}
+
+.experiencias-img{
+    width: 273px;
+    height: 275px;
+}
+
