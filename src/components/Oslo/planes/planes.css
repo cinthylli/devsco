@@ -1,0 +1,87 @@
+#planes{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.targetas{
+    border-radius: 30px 30px 0px 0px;
+    width: 20%;
+    opacity: 1;
+    display: flex;
+    flex-flow: column wrap;   
+}
+
+.targetas > img{
+    width: 100%;
+    height: 265px;
+    border: 1px solid #707070;
+    border-radius: 30px 30px 30px 30px;
+}
+.targetas > .plan{
+    font: 12px Roboto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: max-content;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #383D3C;
+    opacity: 1;
+    margin-top: 5px;
+    margin-left: 7% ;
+}
+.plan:hover{
+    text-decoration: underline solid #707070;
+}
+.targetas > .nombre{
+    width: max-content;
+    margin-left: 7%;
+    font: bold 18px Roboto;
+    margin-top: 9px;
+   
+    color: #002665;
+    opacity: 1;
+    
+}
+.targetas > .descripcion{
+    width: max-content;
+    margin-left: 7%;
+    margin-top: 5px;
+    font: Regular 14px/19px Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+    
+}
+.targetas > .calificacion{
+    width: max-content;
+    margin-left: 7%;
+    margin-top: 7px;
+    font: bold 16px/21px Roboto;
+    letter-spacing: 0;
+    color: #383D3C;
+    opacity: 1;
+}
+
+#marcar{
+    width: 25%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-right: 70%; 
+    
+    font: Bold 16px/21px Roboto;
+}
+#marcar a{
+    color: #D25C98;
+    text-decoration: none;
+} 
+#marcar a:hover{
+    color: rgb(136, 62, 100);
+    transition: ease 0.3s;
+}

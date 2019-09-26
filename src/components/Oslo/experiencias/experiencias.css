@@ -1,0 +1,40 @@
+#experiencias{
+    width: 96%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#descubre{
+    margin-top: 40px;
+    font: Bold 24px/32px Roboto;
+    letter-spacing: 0;
+    color: #EC1650;
+    opacity: 1;
+}
+#descrito1{
+    margin-top: 4px;
+    font: Medium Montserrat;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #383D3C;
+    opacity: 1;
+}
+
+.Divtargets{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.targets{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+}
