@@ -17,7 +17,7 @@ import img3 from '../img/sol.png'
                             </div>
                             <div>
                                 <p className="p-1">TIPO DE PLAN PRINCIPAL</p>
-                                <h2>Ciudad</h2>
+                                <h2><a href="">Ciudad</a></h2>
                                 <p className="p-3">Tipos de planes principales</p>
                                 <p className="p-3">Precio Promedio por persona por dia</p>
                                 <p className="p-2">4.88 *  caracteristica principal</p>
