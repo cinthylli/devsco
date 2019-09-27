@@ -17,18 +17,30 @@ import Pagos_5 from './components/pagos/p-5/pagos_5'
 import Pagos_6 from './components/pagos/p-6/pagos_6'
 import Millas_1 from './components/Millas/millas-1/Millas_1'
 import Millas_2 from './components/Millas/millas-2/Millas_2'
+import Oslo from './Oslo'
+import {BrowserRouter as Router, Switch, Route}  from 'react-router-dom' 
+
+
+
 
 class App extends Component{
   render(){
     return(
       <div>
-      <Nav/>   
-      <C_buscar/>
-      <Video/>
-      <Destino/>
-      <Experiencias/>
-      <Hoteles/>
-      <Footer/>
+        <Router>
+          <Route exact path="/" component={App}>
+              <Nav/>   
+              <C_buscar/>
+              <Video/>
+              <Destino/>
+              <Experiencias/>
+              <Hoteles/>
+              <Footer/>
+          </Route>
+          <Switch>
+            <Route path="/Oslo" component={Oslo}/>
+          </Switch>    
+        </Router>
       </div>
 
     );

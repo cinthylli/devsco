@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import './css/planes.css'
+import './planes.css'
 // import imagen1 from '../imagenes/cama.png'
-import imagen2 from '../imagenes/romance.png'
-import imagen3 from '../imagenes/sol.png'
-import imagen4 from '../imagenes/avion.png'
-import imagen1 from '../imagenes/cama.png'
+import imagen2 from '../../img/img1.png'
+import imagen3 from '../../img/sol.png'
+import imagen4 from '../../img/img3.png'
+import imagen1 from '../../img/img2.png'
 
 class Planes extends Component{
     render(){

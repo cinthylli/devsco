@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './css/actividades.css'
-import vista from '../imagenes/vista.png'
+import './actividades.css'
+import vista from '../../img/img3.png'
 
 class Actividades extends Component{
     render(){

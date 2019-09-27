@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import './css/header.css'
-import '../imagenes/kayak.png'
+import './header.css'
+import Nav from '../../nav/nav'
 
-import Nav from './nav.js'
 
 
 class Header extends Component{

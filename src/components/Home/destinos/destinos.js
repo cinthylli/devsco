@@ -3,6 +3,7 @@ import './destinos.css'
 import img1 from '../../img/img1.png'
 import img2 from '../../img/img2.png'
 import img3 from '../../img/sol.png'
+import {Link} from 'react-router-dom'
 
     class Destinos extends Component{
         render(){
@@ -17,7 +18,7 @@ import img3 from '../../img/sol.png'
                             </div>
                             <div>
                                 <p className="p-1">TIPO DE PLAN PRINCIPAL</p>
-                                <h2><a href="">Oslo</a></h2>
+                                <h2><Link to="../../../Oslo"><a href="">Oslo</a></Link></h2>
                                 <p className="p-3">Tipos de planes principales</p>
                                 <p className="p-3">Precio Promedio por persona por dia</p>
                                 <p className="p-2">4.88 *  caracteristica principal</p>

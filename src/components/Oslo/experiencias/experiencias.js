@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import './css/experiencias.css'
-import imagenAvion from '../imagenes/avion.png'
-import imagenSol from '../imagenes/sol.png'
-import imagenRomance from '../imagenes/romance.png'
+import './experiencias.css'
+import imagenAvion from '../../img/img3.png'
+import imagenSol from '../../img/sol.png'
+import imagenRomance from '../../img/img2.png'
 
 class Experiencias extends Component{
     render(){
