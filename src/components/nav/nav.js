@@ -9,7 +9,7 @@ import Oslo from '../../Oslo'
             return(
                 <div id="contenedorNav">  
                     <div>
-                        <Link to="">
+                        <Link to="/">
                             <a href=""><img id="logo"/></a>
                         </Link>
                     </div>
