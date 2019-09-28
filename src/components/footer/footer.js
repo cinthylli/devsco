@@ -18,7 +18,16 @@ class Footer extends Component{
                 <div></div>
                 <div></div>
                 <div>
-                    <img src="" className="footer-img"/>
+                    <h3>Contactanos</h3>
+                    <p>xxx-xxx-xxxx</p>
+                </div>
+
+                <div id="footer-mv">
+                    <h2>Mision</h2>
+                    <p>bla bla</p>
+
+                    <h2>Vision</h2>
+                    <p>bla bla</p>
                 </div>
             </div>
         )
