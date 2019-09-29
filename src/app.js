@@ -29,12 +29,9 @@ class App extends Component{
       <div>
         <Router>
           <Route exact path="/" component={App}>
-              <Nav/>   
-              <C_buscar/>
+              <Nav/> 
               <Video/>
               <Destino/>
-              <Experiencias/>
-              <Hoteles/>
               <Footer/>
           </Route>
           <Switch>
