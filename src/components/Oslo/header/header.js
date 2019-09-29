@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './header.css'
 import Nav from '../../nav/nav'
+import osloVideo from '../osloVideo/osloVideo'
 
 
 
@@ -9,7 +10,7 @@ class Header extends Component{
         return(
             <header>
                 <Nav/>
-                <componente></componente>
+                <osloVideo/>
                 <div class="titulo">
                     <span id="letrero">Descubre que hacer en Oslo</span>
                     <a href="" id="boton1">Aqui</a>
