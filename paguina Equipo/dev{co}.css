@@ -57,7 +57,7 @@ header img{
 
 #contenedor_2{
     width: 100%;
-    height: 700px;
+    height: 511px;
     background-color: #1D3366;
     text-align: center;
     position: relative;
@@ -84,8 +84,8 @@ header img{
     box-shadow: 1px 3px 5px  gray;
     width: 90%;
     z-index: 2;
-    position: absolute;
-    top: 1600px;
+    position: relative;
+    /* top: 2000px; */
     overflow: hidden;
     margin-left: 70px;
     margin-right: 70px;
@@ -121,9 +121,12 @@ header img{
 
 
 #contenedor_4{
-    margin-top: 300px;
+    /* margin-top: 300px; */
     text-align: center;
     color: #0088FF;
+background-color: #1D3366;
+padding: 5%;
+    position: relative;
 }
 
 #contenedor_4 h2{
