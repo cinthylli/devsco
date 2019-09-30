@@ -7,7 +7,7 @@ import play from './img/play.png'
         render(){
             return(
                 <div id="ContenedorVideo">
-                    <video id="video"  src={vid} autoPlay></video>
+                    <video id="video"  src={vid} autoPlay="true" loop="true"></video>
                     <img src={play}/>
                 </div>
             )
